@@ -12,6 +12,8 @@
     <module>code/routines</module>
     <module>jobs/joblets/jblet_end_job_audit_0.1</module>
     <module>jobs/joblets/jblet_start_job_checker_0.1</module>
+    <module>jobs/process/JOB_DIM/job_dim_subs_package_service_0.1</module>
+    <module>jobs/process/JOB_DIM/job_dim_subs_package_service_child_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_customer_exclusion_project_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_hardware_part_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_sales_channel_group_0.1</module>
