@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="DEV" xmi:id="_Ck_d4OM8Eemp2PTJqpkgBQ" xmi:version="2.0">
+  <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;" xmi:id="_Ck_d4eM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d4uM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d4-M8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d5OM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d5eM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d5uM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d5-M8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d6OM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d6eM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d6uM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d6-M8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d7OM8Eemp2PTJqpkgBQ"/>
+  <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Ck_d7eM8Eemp2PTJqpkgBQ"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_02309b04-bf94-48c7-8755-d90c9488969c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vEJQy0IqPPjfR6ikovmihS5KqHMz+MpsX63UMTpi36Kdi7HJN99LotHSNjazw0PVRTYi3+M9BcmO&#13;
+h9k9s0ELcw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0c52ae1f-e075-41ff-90fb-36cc2539fa4c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QxLLVpz8ICans5PYlCO9zHAMaoHFXMxc6WZjEmjk2Qizhhqmw53n9bYqT3LV78j2ddmq82TAVOzm&#13;
+8wni0uLrrA==</DigestValue></Reference></SignedInfo><SignatureValue>X4EmI2788JSHRzK7raKn/1XdviUoJmF40Zh6lDS5mbEW7k2aCKGTtln5RiQHPpXXZ7nwRwxxb9Ie&#13;
+RO8aSU1yeorkl0F2RTWLjLu63pZtA8N0DNjQE3R884IAhIzidx+H3txcdshHx9pf/XVyT8pTRA/j&#13;
+qFmwAGpgCs6Sc4RmCFnEnmj37A8qQdW0gByHoi8NnzH2EjpaH3ZjQrYApqc2+VyYlJLA51vkf3SZ&#13;
+B7q8DV31c4Q/bKCvSRnV/h3E8613LwNBUrRe8LJOsXxUb4nvYVeZEM4TBaThJA5QSEA8cFpPXoyt&#13;
+NsRiPxHfNFSBdz/rOE+2QAl0xAYqyrW3JZ4mPA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0c52ae1f-e075-41ff-90fb-36cc2539fa4c" Target="#_02309b04-bf94-48c7-8755-d90c9488969c"><Timestamp>2021-07-27 09:59:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
