@@ -1,0 +1,244 @@
+{
+  "itemId" : "_8MShQOZuEemXEbeflKvnXw",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_tk774OkXEemZ4JiZqBnqow",
+    "parameterList" : [ {
+      "id" : "_D7K3MepOEemARKp_VShqnA",
+      "name" : "parameter_etl_job_run_id"
+    }, {
+      "id" : "_D7K3MupOEemARKp_VShqnA",
+      "name" : "parameter_etl_job_date"
+    }, {
+      "id" : "_D7K3M-pOEemARKp_VShqnA",
+      "name" : "parameter_record_insert_datetime"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
+    "parameterList" : [ {
+      "id" : "_6aPThOpNEemARKp_VShqnA",
+      "name" : "redshift_Database"
+    }, {
+      "id" : "_6aPThupNEemARKp_VShqnA",
+      "name" : "redshift_Password"
+    }, {
+      "id" : "_6aPTkupNEemARKp_VShqnA",
+      "name" : "SMTP_From"
+    }, {
+      "id" : "_6aPTk-pNEemARKp_VShqnA",
+      "name" : "SMTP_CC"
+    }, {
+      "id" : "_6aPTgepNEemARKp_VShqnA",
+      "name" : "resource_file_dbconfig"
+    }, {
+      "id" : "_6aPTj-pNEemARKp_VShqnA",
+      "name" : "SMTP_Host"
+    }, {
+      "id" : "_6aPTjOpNEemARKp_VShqnA",
+      "name" : "redshift_Summary"
+    }, {
+      "id" : "_6aPTkepNEemARKp_VShqnA",
+      "name" : "SMTP_To"
+    }, {
+      "id" : "_6aPTgupNEemARKp_VShqnA",
+      "name" : "redshift_Server"
+    }, {
+      "id" : "_6aPTiOpNEemARKp_VShqnA",
+      "name" : "redshift_Dimension"
+    }, {
+      "id" : "_6aPTh-pNEemARKp_VShqnA",
+      "name" : "redshift_Control"
+    }, {
+      "id" : "_6aPTiepNEemARKp_VShqnA",
+      "name" : "redshift_Fact"
+    }, {
+      "id" : "_6aPTlOpNEemARKp_VShqnA",
+      "name" : "SMTP_Username"
+    }, {
+      "id" : "_6aPTkOpNEemARKp_VShqnA",
+      "name" : "SMTP_Port"
+    }, {
+      "id" : "_6aPTlepNEemARKp_VShqnA",
+      "name" : "SMTP_Password"
+    }, {
+      "id" : "_6aPTg-pNEemARKp_VShqnA",
+      "name" : "redshift_Port"
+    }, {
+      "id" : "_6aPTjupNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
+    }, {
+      "id" : "_6aPTjepNEemARKp_VShqnA",
+      "name" : "redshift_Temp"
+    }, {
+      "id" : "_6aPThepNEemARKp_VShqnA",
+      "name" : "redshift_Login"
+    }, {
+      "id" : "_6aPTi-pNEemARKp_VShqnA",
+      "name" : "redshift_Staging"
+    }, {
+      "id" : "_6aPTiupNEemARKp_VShqnA",
+      "name" : "redshift_Lookup"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_tk774OkXEemZ4JiZqBnqow",
+    "parameterList" : [ {
+      "id" : "_K5eikepNEemARKp_VShqnA",
+      "name" : "parameter_etl_job_run_id"
+    }, {
+      "id" : "_K5eikupNEemARKp_VShqnA",
+      "name" : "parameter_etl_job_date"
+    }, {
+      "id" : "_K5eik-pNEemARKp_VShqnA",
+      "name" : "parameter_record_insert_datetime"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
+    "parameterList" : [ {
+      "id" : "_K6Ip5OpNEemARKp_VShqnA",
+      "name" : "redshift_Database"
+    }, {
+      "id" : "_K6Ip5upNEemARKp_VShqnA",
+      "name" : "redshift_Password"
+    }, {
+      "id" : "_K6Ip8upNEemARKp_VShqnA",
+      "name" : "SMTP_From"
+    }, {
+      "id" : "_K6Ip8-pNEemARKp_VShqnA",
+      "name" : "SMTP_CC"
+    }, {
+      "id" : "_K6Ip4epNEemARKp_VShqnA",
+      "name" : "resource_file_dbconfig"
+    }, {
+      "id" : "_K6Ip7-pNEemARKp_VShqnA",
+      "name" : "SMTP_Host"
+    }, {
+      "id" : "_K6Ip7OpNEemARKp_VShqnA",
+      "name" : "redshift_Summary"
+    }, {
+      "id" : "_K6Ip8epNEemARKp_VShqnA",
+      "name" : "SMTP_To"
+    }, {
+      "id" : "_K6Ip4upNEemARKp_VShqnA",
+      "name" : "redshift_Server"
+    }, {
+      "id" : "_K6Ip6OpNEemARKp_VShqnA",
+      "name" : "redshift_Dimension"
+    }, {
+      "id" : "_K6Ip5-pNEemARKp_VShqnA",
+      "name" : "redshift_Control"
+    }, {
+      "id" : "_K6Ip6epNEemARKp_VShqnA",
+      "name" : "redshift_Fact"
+    }, {
+      "id" : "_K6Ip9OpNEemARKp_VShqnA",
+      "name" : "SMTP_Username"
+    }, {
+      "id" : "_K6Ip8OpNEemARKp_VShqnA",
+      "name" : "SMTP_Port"
+    }, {
+      "id" : "_K6Ip9epNEemARKp_VShqnA",
+      "name" : "SMTP_Password"
+    }, {
+      "id" : "_K6Ip4-pNEemARKp_VShqnA",
+      "name" : "redshift_Port"
+    }, {
+      "id" : "_K6Ip7upNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
+    }, {
+      "id" : "_K6Ip7epNEemARKp_VShqnA",
+      "name" : "redshift_Temp"
+    }, {
+      "id" : "_K6Ip5epNEemARKp_VShqnA",
+      "name" : "redshift_Login"
+    }, {
+      "id" : "_K6Ip6-pNEemARKp_VShqnA",
+      "name" : "redshift_Staging"
+    }, {
+      "id" : "_K6Ip6upNEemARKp_VShqnA",
+      "name" : "redshift_Lookup"
+    } ]
+  }, {
+    "contextName" : "TEST",
+    "repoId" : "_tk774OkXEemZ4JiZqBnqow",
+    "parameterList" : [ {
+      "id" : "_D7K3NepOEemARKp_VShqnA",
+      "name" : "parameter_etl_job_run_id"
+    }, {
+      "id" : "_D7K3NupOEemARKp_VShqnA",
+      "name" : "parameter_etl_job_date"
+    }, {
+      "id" : "_D7K3N-pOEemARKp_VShqnA",
+      "name" : "parameter_record_insert_datetime"
+    } ]
+  }, {
+    "contextName" : "TEST",
+    "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
+    "parameterList" : [ {
+      "id" : "_6aPTmupNEemARKp_VShqnA",
+      "name" : "redshift_Database"
+    }, {
+      "id" : "_6aPTnOpNEemARKp_VShqnA",
+      "name" : "redshift_Password"
+    }, {
+      "id" : "_6aPTqOpNEemARKp_VShqnA",
+      "name" : "SMTP_From"
+    }, {
+      "id" : "_6aPTqepNEemARKp_VShqnA",
+      "name" : "SMTP_CC"
+    }, {
+      "id" : "_6aPTl-pNEemARKp_VShqnA",
+      "name" : "resource_file_dbconfig"
+    }, {
+      "id" : "_6aPTpepNEemARKp_VShqnA",
+      "name" : "SMTP_Host"
+    }, {
+      "id" : "_6aPToupNEemARKp_VShqnA",
+      "name" : "redshift_Summary"
+    }, {
+      "id" : "_6aPTp-pNEemARKp_VShqnA",
+      "name" : "SMTP_To"
+    }, {
+      "id" : "_6aPTmOpNEemARKp_VShqnA",
+      "name" : "redshift_Server"
+    }, {
+      "id" : "_6aPTnupNEemARKp_VShqnA",
+      "name" : "redshift_Dimension"
+    }, {
+      "id" : "_6aPTnepNEemARKp_VShqnA",
+      "name" : "redshift_Control"
+    }, {
+      "id" : "_6aPTn-pNEemARKp_VShqnA",
+      "name" : "redshift_Fact"
+    }, {
+      "id" : "_6aPTqupNEemARKp_VShqnA",
+      "name" : "SMTP_Username"
+    }, {
+      "id" : "_6aPTpupNEemARKp_VShqnA",
+      "name" : "SMTP_Port"
+    }, {
+      "id" : "_6aPTq-pNEemARKp_VShqnA",
+      "name" : "SMTP_Password"
+    }, {
+      "id" : "_6aPTmepNEemARKp_VShqnA",
+      "name" : "redshift_Port"
+    }, {
+      "id" : "_6aPTpOpNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
+    }, {
+      "id" : "_6aPTo-pNEemARKp_VShqnA",
+      "name" : "redshift_Temp"
+    }, {
+      "id" : "_6aPTm-pNEemARKp_VShqnA",
+      "name" : "redshift_Login"
+    }, {
+      "id" : "_6aPToepNEemARKp_VShqnA",
+      "name" : "redshift_Staging"
+    }, {
+      "id" : "_6aPToOpNEemARKp_VShqnA",
+      "name" : "redshift_Lookup"
+    } ]
+  } ]
+}

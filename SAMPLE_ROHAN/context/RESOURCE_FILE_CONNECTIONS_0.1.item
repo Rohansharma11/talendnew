@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_K6Ip4OpNEemARKp_VShqnA">
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mmaling/Desktop/Connections.txt&quot;" xmi:id="_K6Ip4epNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip4upNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip4-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip5OpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip5epNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip5upNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip5-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip6OpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip6epNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip6upNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip6-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip7OpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip7epNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip7upNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip7-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip8OpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip8epNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip8upNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip8-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip9OpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_K6Ip9epNEemARKp_VShqnA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_6aPTgOpNEemARKp_VShqnA">
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTgepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTgupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTg-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPThOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPThepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPThupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTh-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTiOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTiepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTiupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTi-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTjOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTjepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTjupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTj-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTkOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTkepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTkupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTk-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTlOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTlepNEemARKp_VShqnA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="TEST" xmi:id="_6aPTlupNEemARKp_VShqnA">
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTl-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTmOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTmepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTmupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTm-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTnOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTnepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTnupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTn-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPToOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPToepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPToupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTo-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTpOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTpepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTpupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTp-pNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTqOpNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTqepNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTqupNEemARKp_VShqnA"/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_6aPTq-pNEemARKp_VShqnA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b0db3ddc-058e-4847-8027-1e2f06a4efa2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NQzaBOQx4LLAvbqpG6D11Nzcqh74msmWd3nuvIJKXOuYqxLyGfes9SZ6hTLb/zM+aMx6dROeGNOv&#13;
+AtDyr2CE1g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_aa18b64d-c652-444e-8f1a-b2cf1e9d38be"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IKR6+ogIdfKu8Bh6qb5neClXWYvuWty5jxfLJ68id+qnreQKLrPlzKOhMaZJc0DwIYEhFNFe90oz&#13;
+d+C9p47PYQ==</DigestValue></Reference></SignedInfo><SignatureValue>MU4GV8rSXCQKw/uE011ysXQWYeXdJ5m7P2y4dbqCcFhujYDYshBhxNlVx+d73LL+Sv8dxxi3tLQT&#13;
++K5Mkd5Paw5Md7z1W1YHiiBz+rjhNR9n5YwlXqFIeB8hLLgt9sM4IMlqOAZXgv4NPPXx/PPrvH8W&#13;
+EHvDfhCfSmQ63uIoAmcbGCLa7YMyVmmaP/tPEFGYRwQ3Qt+iswdh3CAZ+w91NQVZeRZk7q4mq1Mo&#13;
+GmT+O3Og4QAQPqzk7zWdljt4A1XJW4lIHiyfcM3BBKH+jrawsPmBpy53iZ9ATnPyVJ+9mX8QOCyH&#13;
+LqETNYxUi2dGIbYpYL3JyHAr7NUnkLmqqlpuaQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_aa18b64d-c652-444e-8f1a-b2cf1e9d38be" Target="#_b0db3ddc-058e-4847-8027-1e2f06a4efa2"><Timestamp>2021-07-27 09:32:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

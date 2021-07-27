@@ -10,6 +10,14 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/joblets/jblet_end_job_audit_0.1</module>
+    <module>jobs/joblets/jblet_start_job_checker_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkm_customer_exclusion_project_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkm_hardware_part_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkm_sales_channel_group_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkm_scm_inv_location_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkm_subscription_status_0.1</module>
+    <module>jobs/process/JOB_LKP/job_lkt_campaign_code_parent_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
