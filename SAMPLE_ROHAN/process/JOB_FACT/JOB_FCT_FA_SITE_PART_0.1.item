@@ -1,181 +1,187 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Development" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_e9xfYO7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfYe7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfYu7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:/Users/jreforma/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e9xfYO7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfYe7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfYu7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbEpEO7GEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbEpEe7GEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQIO7GEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQIe7GEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQIu7GEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQI-7GEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQJO7GEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQJe7GEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQJu7GEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQJ-7GEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;"/>
+    <contextParameter comment="" internalId="_WbFQKO7GEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQKe7GEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQKu7GEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQK-7GEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQLO7GEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQLe7GEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQLu7GEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQL-7GEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQMO7GEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQMe7GEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQMu7GEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQM-7GEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQNO7GEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQNe7GEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQNu7GEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQN-7GEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQOO7GEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQOe7GEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQOu7GEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQO-7GEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQPO7GEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Development">
-    <contextParameter comment="" internalId="_e9xfY-7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfZO7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfZe7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:/Users/jreforma/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e9xfY-7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfZO7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfZe7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQPe7GEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQPu7GEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQP-7GEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQQO7GEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQQe7GEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQQu7GEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQQ-7GEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQRO7GEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQRe7GEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQRu7GEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;"/>
+    <contextParameter comment="" internalId="_WbFQR-7GEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQSO7GEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQSe7GEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQSu7GEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQS-7GEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQTO7GEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQTe7GEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQTu7GEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQT-7GEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQUO7GEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQUe7GEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQUu7GEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQU-7GEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQVO7GEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQVe7GEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQVu7GEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQV-7GEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQWO7GEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQWe7GEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQWu7GEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQW-7GEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_e9xfZu7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfZ-7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfaO7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:/Users/jreforma/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e9xfZu7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfZ-7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfaO7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQXO7GEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQXe7GEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQXu7GEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQX-7GEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQYO7GEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQYe7GEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQYu7GEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQY-7GEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQZO7GEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQZe7GEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;"/>
+    <contextParameter comment="" internalId="_WbFQZu7GEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQZ-7GEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQaO7GEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQae7GEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQau7GEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQa-7GEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQbO7GEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQbe7GEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQbu7GEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQb-7GEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQcO7GEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQce7GEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQcu7GEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQc-7GEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQdO7GEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQde7GEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQdu7GEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQd-7GEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQeO7GEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQee7GEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQeu7GEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_e9xfae7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfau7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfa-7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:/Users/jreforma/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e9xfae7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfau7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfa-7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQe-7GEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQfO7GEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQfe7GEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQfu7GEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQf-7GEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQgO7GEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQge7GEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQgu7GEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQg-7GEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQhO7GEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;"/>
+    <contextParameter comment="" internalId="_WbFQhe7GEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQhu7GEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQh-7GEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQiO7GEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQie7GEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQiu7GEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQi-7GEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQjO7GEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQje7GEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQju7GEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQj-7GEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQkO7GEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQke7GEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQku7GEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQk-7GEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQlO7GEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQle7GEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQlu7GEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQl-7GEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQmO7GEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQme7GEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="TEST">
-    <contextParameter comment="" internalId="_e9xfbO7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfbe7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_e9xfbu7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:/Users/jreforma/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_OvznAOWDEemc-7F64_ph-w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e9xfbO7FEeu7LdCfpQOciQ" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfbe7FEeu7LdCfpQOciQ" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_e9xfbu7FEeu7LdCfpQOciQ" name="count_insert" prompt="count_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQmu7GEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQm-7GEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQnO7GEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQne7GEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQnu7GEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQn-7GEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQoO7GEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQoe7GEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQou7GEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQo-7GEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value="&quot;C:\Users\ss72\Desktop\Extraction\ResourceFileForStudio.txt&quot;"/>
+    <contextParameter comment="" internalId="_WbFQpO7GEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQpe7GEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQpu7GEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQp-7GEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQqO7GEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQqe7GEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQqu7GEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQq-7GEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQrO7GEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQre7GEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQru7GEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQr-7GEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQsO7GEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQse7GEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQsu7GEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQs-7GEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_bNLeUOD8EemeaYWGQbvBsQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQtO7GEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_WbFQte7GEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQtu7GEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQt-7GEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WbFQuO7GEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="112"/>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="55"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
@@ -201,6 +207,9 @@
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.resource_file_dbconfig"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -213,7 +222,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:4U2D3lS1aOadbGJAmFFkNlLSUufnEWhX07YyZOW9"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0WLaKT6n5kW3HElfdjM56nAf32UH6V+92UbZuF3O"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -228,7 +237,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/jreforma/Desktop/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Rishab/Downloads/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -248,7 +257,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NpvZQgQvuo8cbijS09jOzXUqX0AgR6z9MP62sxOX"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5yEtC6bnFcxbnF+14sv/OUh5LFMG4EkCljka8+sN"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -293,7 +302,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;dimension&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="REDSHIFT"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;awsuser&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:e6ke3Qhamw3+Bk0GFk66otDXWC46dsFfJlnN0ykZDYfjGW5gwcsqvQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KnzuBavZTV7vIkLTS04bbzzWk/4zF6FYCjnl6+czdNZ+4c5ad+aYzg=="/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -409,7 +418,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Control"/>
     <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JLP6QQ1bTqYCzlc9YcXQanPbWzdXxn+zcVD07dtaQEiC2VZZmX9qyZKdle11BNGRj43BOUo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DPb1yP7AcPd55ragMHMRN3fJ+ou77hs/FbBRCT9m1phdX3y7FWfmJ4ubd7oLw1WuAeVfRqo="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -431,7 +440,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Temp"/>
     <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:P0YlmhBopD093UtY2l304maui3K1IFJ21IEWH5JxkxWgO8VXZMea1DEcY3aMD3WCwn0HiHo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jBJtxUqDBniQl47dKHOjTPFeAyukJlZ7Pj6fPFdJSupF7ommXM2CQl++kWz9Q0TZ94Aa6lg="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -453,7 +462,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Fact"/>
     <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vUdKleA+dMvfSa87J0rESMroAxVQksju4MPz1+YolZaNHumtPFikkS2jBZ0LGu+Hi6puDYM="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M2tmSsrh+oMQnEHrBqGrvdgOo8T+QeR8flMvNYniUME8BW+IfaSUmrQz8e1Em4HBkdz76YY="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -543,7 +552,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5QKu1ZUX6itA1OrpXVgy0mnDNufGSfROc7+PpUMJ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:CJIWVOt//AGoo/+YHnqrLf84nvKBiSmSOgogBX7H"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_FA_SITE_PART&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -639,7 +648,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:J94OlpyUMJvx4Q10n6Q1RM1UseKKz0+TcDNgBS8o"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:W4l9K0L6oDVGccBkidTQ4LKdiqTFEwhNSvGKyAPn"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_BILL_HEADER&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -685,7 +694,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ArnyZx5rKv2KKrp+wafkIhJSfkjinZS8Rz9WJvNk"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7vUsbTQI8+TPEPbtdZPSHxdPExzGyEUVpxJOrbY5"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_FA_SITE_PART&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -749,7 +758,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NCDnT4COgmf6NrNHYVls/0Bpv2iIN04tMkO1HL2D"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NyzUlE4xAbROlDz+yultpARdrsEpM7B2o1K/hX4e"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -766,6 +775,7 @@
     <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
     <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
     <elementParameter field="TEXT" name="LABEL" value="INSERT_FCT_FA_SITE_PART"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBRow_2"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -983,13 +993,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_245893c0-fe0a-4c40-98ca-7514f18906d1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LhTMmjVsEvP7r+g6MHcqmDVKmjxFW0Vps/XJ1FhIDDlolCltkX/kGHHskI4XXbnO7XqKBVPYNcb3&#13;
-KQUcWTS6XA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_28dfa36d-24e4-4e65-be3f-705964adc906"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>epKE4RvqGnorMH3LE+0rXuin+FXyz4F9TMQyrmVSkHY9pDXP25P/tPu982dxd0q+n9listBQFq4f&#13;
-LZBtYIqKig==</DigestValue></Reference></SignedInfo><SignatureValue>diuIGANuYK5OtRGePD/88iCTk+ga3oyl+BkyOKtqlVvMIloEmnR6Pw4uqqjhW+dASnu/lgmxQuzX&#13;
-6X69alecvPaGnenl1TlMkxX9R/UiL1K0D+2RItULwtgbAnRepJb8Asiv2ID0QnvBfruLsBB9BjNf&#13;
-6rYbNKIwyHHGywu+/SgdH3N/ZVKhf8C1+IWTAmFsjjsahYyT9K5eytFunb0fZRc2/+7Ce3GCyitO&#13;
-sKIZDL8cAqdVrMHymxbHl3lx0jElGwrQMIG0HNHwJkPBBm3TQ6ES1V57PywF+IXdQi9JS8n1QgOl&#13;
-AXIEiX2NUDMQieHD5nc9fE8QmhYjfXcf2N3lWg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_44f1a812-1dfa-4816-a005-b07670f616e4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IsEodg/kng56fDIRhGjnaLMlLQlKdZJxIaa6CJMR7jVuM4oIvJCqh0AERFXx+nlxA8c1vi2dBb/o&#13;
+XGdbvfck6w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0c19d34b-aa4c-4205-9067-bd24d7d32812"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t0TFBJYXazpGBmaxeIcyny+wy3nSroeqL5bA4zrzaLWzBRqVvfsUzVkJlYZFU8+KmmwAhbfDj/Zz&#13;
+KS2ZdjSWzQ==</DigestValue></Reference></SignedInfo><SignatureValue>clNOEJ2dq8UVrBnL0VPRQF1p9WYZlnjfXLb/9k79F7nP0v98lyi1X7HeKKBTWAsAvbKezdO66uB4&#13;
+dBVv2IBWwb58x9SZddDYYXoWcreevIcOHzk4KjbX6q9GmELZw0Bsqojg8UZqNMojIWqJV/5lss0V&#13;
+agQ35j6bQo1j9cEgJY3TRII/G5FlNNmuS22dlMGlWauGCS54TDBLT1qelvTMBCVvau8ySnUZkB6j&#13;
+j8pnIJiy6NLqWYPMePHTfUkM9S1zOkFM5ij/hkaxmgTHY7UK72t65AIaocQm5kmPxgT7azAPh1nd&#13;
+i2f2GpTF0krZu9lqTGzfaR0C59EreSbpIJPjtA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1011,4 +1021,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_28dfa36d-24e4-4e65-be3f-705964adc906" Target="#_245893c0-fe0a-4c40-98ca-7514f18906d1"><Timestamp>2021-07-27 09:59:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0c19d34b-aa4c-4205-9067-bd24d7d32812" Target="#_44f1a812-1dfa-4816-a005-b07670f616e4"><Timestamp>2021-07-27 10:05:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
