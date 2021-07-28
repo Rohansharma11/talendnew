@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_9xx8YKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8YaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8YqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8Y6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value="&quot;C:/Users/ss72/Desktop/Connections.txt&quot;"/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" internalId="_9xx8ZKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8ZaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8ZqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8Z6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="TEST">
+    <contextParameter comment="" internalId="_9xx8aKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8aaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8aqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8a6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.resource_file_dbconfig"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:hEGISVtFxCGyBHtK/PKVyTa94N8A8PFbPGKlubAW"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/ss72/Documents/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:JMrgzb10cgqtK7cMNtHAXpX5UnkIHevWJOMI8nZ3"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_ngeuVupEEemKwrLwc27CZQ" name="DQTechnical"/>
+    <routinesParameter id="_neETgOpEEemKwrLwc27CZQ" name="DataMasking"/>
+    <routinesParameter id="_ng7aQOpEEemKwrLwc27CZQ" name="DataOperation"/>
+    <routinesParameter id="_ngLzYOpEEemKwrLwc27CZQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_nf1OEOpEEemKwrLwc27CZQ" name="DataQuality"/>
+    <routinesParameter id="_ngVkYOpEEemKwrLwc27CZQ" name="DqStringHandling"/>
+    <routinesParameter id="_nhI1pupEEemKwrLwc27CZQ" name="Mathematical"/>
+    <routinesParameter id="_nhbwkOpEEemKwrLwc27CZQ" name="Numeric"/>
+    <routinesParameter id="_nhurgOpEEemKwrLwc27CZQ" name="Relational"/>
+    <routinesParameter id="_ngxpQOpEEemKwrLwc27CZQ" name="SQLike"/>
+    <routinesParameter id="_nh4cgOpEEemKwrLwc27CZQ" name="StringHandling"/>
+    <routinesParameter id="_niFQ1upEEemKwrLwc27CZQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_niYy0OpEEemKwrLwc27CZQ" name="TalendDate"/>
+    <routinesParameter id="_ni1ewOpEEemKwrLwc27CZQ" name="TalendStringUtil"/>
+    <routinesParameter id="_niij0OpEEemKwrLwc27CZQ" name="TalendString"/>
+  </parameters>
+  <node componentName="JBLET_END_JOB_AUDIT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="JBLET_END_JOB_AUDIT_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="JBLET_END_JOB_AUDIT"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRE_JOB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="context.redshift_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" value="context.redshift_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Control"/>
+    <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:BMzvIt8BSBqaHhB5oum+kQEdkp5Oj2RDuGzmKhpLnvHvlraIcYeDBFNIgQjl52Ah6qqCvzY="/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Users/aarzadon2/Documents/Astro/License/Drei/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" value="1"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="OPEN_CTRL_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" value="context.redshift_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" value="context.redshift_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Fact"/>
+    <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:mxxq+Geh2IBnUi/D0LRYEjEdcowpE2qSQGeg6KxDeXhY/vI9yaKh8wdWWXwCVmV1rNz8kTs="/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Users/aarzadon2/Documents/Astro/License/Drei/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" value="1"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="OPEN_FACT_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Failure :Redshift Connection not established&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="104"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="CONNECTION_FAILED"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Failure :Redshift Connection not established&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="104"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="CONNECTION_FAILED"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_2"/>
+  </node>
+  <node componentName="JBLET_START_JOB_CHECKER" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="JBLET_START_JOB_CHECKER_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="JBLET_START_JOB_CHECKER"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="/*&#10;&#9;PARAMETERS&#10;*/&#10;context.parameter_etl_job_run_id=TalendDate.getDate(&quot;YYMMDDhhmmss&quot;);&#10;context.parameter_etl_job_date=TalendDate.getDate(&quot;CCYY-MM-DD&quot;);&#10;context.parameter_record_insert_datetime=TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="JOB_DATES"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="2016">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="POST_JOB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="2016">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="CLOSE_CTRL_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:3JP7mlWcjkWFhw0NkhSZo5WrugIR2mbgRlbXsB11"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_AR_INVOICE_DEBIT_ID&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COUNT(1) FROM FACT.FCT_AR_INVOICE WHERE EXISTS &#13;&#10;(SELECT 1 FROM STAGING.STG_AR1_INVOICE A  &#13;&#10;WHERE FCT_AR_INVOICE.AR_INVOICE_ID = A.INVOICE_ID);&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" show="false" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" show="false" value="1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="count_deleted"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_FCT_AR_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="13" name="count_deleted" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.count_deleted = row1.count_deleted;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_COUNT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column comment="" key="false" length="13" name="count_deleted" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRedshiftInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1024">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:qOX2mxgHZVeEo396qj2JYtYVbbttRwV01ys3JLFo"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_AR_INVOICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COUNT(*) FROM FACT.FCT_AR_INVOICE;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" show="false" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" show="false" value="1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="count_before_insert"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_FCT_AR_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="13" name="count_before_insert" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="1024">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.count_before_insert = row2.count_before_insert;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_COUNT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_2">
+      <column comment="" key="false" length="13" name="count_before_insert" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1344">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:gIVK/lPJ1Pq1vk4hWe8W/UvVCKtCQm6lMC2LQvBY"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_AR_INVOICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;INSERT INTO FACT.FCT_AR_INVOICE (SELECT &#13;&#10;  TO_CHAR(A.INVOICE_CREATION_DATE,'YYYYMMDD') DATE_KEY, &#13;&#10;  A.INVOICE_ID AR_INVOICE_ID, &#13;&#10;  A.BILLING_INVOICE_NUMBER BILLING_INVOICE_NO, &#13;&#10;  A.INVOICE_CREATION_DATE AR_INVOICE_CREATION_DATE, &#13;&#10;  A.ACCOUNT_ID ACCOUNT_NO, &#13;&#10;  A.BILLING_ARRANGEMENT_ID BA_NO, &#13;&#10;  A.INVOICE_TYPE INVOICE_TYPE, &#13;&#10;  A.INVOICE_AMOUNT INVOICE_AMT, &#13;&#10;  A.TAX_AMOUNT INVOICE_TAX_AMT, &#13;&#10;  A.DISCOUNT_NET_AMT DISCOUNT_NET_AMT, &#13;&#10;  A.DISCOUNT_TAX_AMT DISCOUNT_TAX_AMT, &#13;&#10;  A.CREDIT_NET_AMOUNT CREDIT_NET_AMT, &#13;&#10;  A.CREDIT_TAX_AMOUNT CREDIT_TAX_AMT, &#13;&#10;  NVL(A.INVOICE_AMOUNT,0) + NVL(A.TAX_AMOUNT,0) - NVL(A.CREDIT_NET_AMOUNT,0) TOTAL_INVOICE_AMT, &#13;&#10;  A.INVOICE_BALANCE TOTAL_INVOICE_BALANCE_AMT, &#13;&#10;  A.INVOICE_STATUS INVOICE_STATUS, &#13;&#10;  A.CYCLE_CODE BILLING_CYCLE, &#13;&#10;  A.CYCLE_MONTH CYCLE_MONTH, &#13;&#10;  A.CYCLE_YEAR CYCLE_YEAR, &#13;&#10;  A.TRANSACTION_ID TRANSACTION_ID, &#13;&#10;  A.FINALISE_TRANS_ID FINALISE_TRANS_ID, &#13;&#10;  A.FINALISE_DATE FINALISE_DATE, &#13;&#10;  A.INVOICE_STATUS_CHANGE_DATE INVOICE_STATUS_CHANGE_DATE, &#13;&#10;  A.BILL_SEQ_NO CYCLE_SEQ_NO, &#13;&#10;  A.SYS_CREATION_DATE SYS_CREATION_DATETIME, &#13;&#10;  A.SYS_UPDATE_DATE SYS_UPDATE_DATETIME, '&quot; +&#13;&#10;  context.parameter_record_insert_datetime + &quot;'::DATETIME RECORD_INSERT_DATETIME,&#13;&#10;  NULL::DATETIME RECORD_UPDATE_DATETIME, '&quot; +&#13;&#10;  context.parameter_etl_job_date + &quot;'::DATE ETL_JOB_DATE, &quot; + &#13;&#10;  context.parameter_etl_job_run_id + &quot; ETL_JOB_RUN_ID&#13;&#10;FROM STAGING.STG_AR1_INVOICE A);&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="INSERT_FCT_AR_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1696">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.source_count = context.count_insert_records;&#10;context.target_count = context.count_after_insert - context.count_before_insert;&#10;&#10;&#10;System.out.println(&quot;Source Count: &quot; + context.source_count);&#10;System.out.println(&quot;Target Count: &quot; + context.target_count);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="RECORD_COUNT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tRedshiftClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="2016">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="CLOSE_FACT_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:gRyHv+jcIjV5EMWwPfq3gNsvo7qy29VRg+FoEtGy"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_AR_INVOICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;DELETE FROM FACT.FCT_AR_INVOICE &#13;&#10;WHERE EXISTS (SELECT 1 FROM STAGING.STG_AR1_INVOICE A  &#13;&#10;WHERE FCT_AR_INVOICE.AR_INVOICE_ID = A.INVOICE_ID);&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="DELETE_FCT_AR_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_3"/>
+    <elementParameter field="TEXT" name="HOST" value="context.redshift_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" value="context.redshift_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.redshift_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.redshift_Staging"/>
+    <elementParameter field="TEXT" name="USER" value="context.redshift_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:PnAr2Ik5t7lzkADj8mRv/mjLqQxmM1Xo4QmZuG4kJSclayKX4C+unFx0aVRfRaG8dna6J40="/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.redshift_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Users/aarzadon2/Documents/Astro/License/Drei/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" value="1"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="OPEN_STG_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Failure :Redshift Connection not established&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="104"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="CONNECTION_FAILED"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_3"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="1696">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_3"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;JobSuccess:&quot;+jobName+&quot; has completed successfully and data is loaded into Redshift table. Source Count: &quot; + context.source_count + &quot; , Target Count: &quot; + context.target_count"/>
+    <elementParameter field="TEXT" name="CODE" value="102"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="WARN_INFO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_3"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="1824">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_4"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Failure:&quot;+jobName+&quot; has failed as counts between source and target has mismatched. Source Count: &quot; + context.source_count + &quot; , Target Count: &quot; + context.target_count"/>
+    <elementParameter field="TEXT" name="CODE" value="104"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="JOB_FAILURE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_4"/>
+  </node>
+  <node componentName="tRedshiftClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="2016">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_3"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="CLOSE_STG_TB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1184">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:qMNUBb4xJhn1wYQbyjiNSN7Zbk2AXYr8eiyot3eh"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_AR1_INVOICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COUNT(*) FROM (SELECT &#13;&#10;  TO_CHAR(A.INVOICE_CREATION_DATE,'YYYYMMDD') DATE_KEY, &#13;&#10;  A.INVOICE_ID AR_INVOICE_ID, &#13;&#10;  A.BILLING_INVOICE_NUMBER BILLING_INVOICE_NO, &#13;&#10;  A.INVOICE_CREATION_DATE AR_INVOICE_CREATION_DATE, &#13;&#10;  A.ACCOUNT_ID ACCOUNT_NO, &#13;&#10;  A.BILLING_ARRANGEMENT_ID BA_NO, &#13;&#10;  A.INVOICE_TYPE INVOICE_TYPE, &#13;&#10;  A.INVOICE_AMOUNT INVOICE_AMT, &#13;&#10;  A.TAX_AMOUNT INVOICE_TAX_AMT, &#13;&#10;  A.DISCOUNT_NET_AMT DISCOUNT_NET_AMT, &#13;&#10;  A.DISCOUNT_TAX_AMT DISCOUNT_TAX_AMT, &#13;&#10;  A.CREDIT_NET_AMOUNT CREDIT_NET_AMT, &#13;&#10;  A.CREDIT_TAX_AMOUNT CREDIT_TAX_AMT, &#13;&#10;  NVL(A.INVOICE_AMOUNT,0) + NVL(A.TAX_AMOUNT,0) - NVL(A.CREDIT_NET_AMOUNT,0) TOTAL_INVOICE_AMT, &#13;&#10;  A.INVOICE_BALANCE TOTAL_INVOICE_BALANCE_AMT, &#13;&#10;  A.INVOICE_STATUS INVOICE_STATUS, &#13;&#10;  A.CYCLE_CODE BILLING_CYCLE, &#13;&#10;  A.CYCLE_MONTH CYCLE_MONTH, &#13;&#10;  A.CYCLE_YEAR CYCLE_YEAR, &#13;&#10;  A.TRANSACTION_ID TRANSACTION_ID, &#13;&#10;  A.FINALISE_TRANS_ID FINALISE_TRANS_ID, &#13;&#10;  A.FINALISE_DATE FINALISE_DATE, &#13;&#10;  A.INVOICE_STATUS_CHANGE_DATE INVOICE_STATUS_CHANGE_DATE, &#13;&#10;  A.BILL_SEQ_NO CYCLE_SEQ_NO, &#13;&#10;  A.SYS_CREATION_DATE SYS_CREATION_DATETIME, &#13;&#10;  A.SYS_UPDATE_DATE SYS_UPDATE_DATETIME&#13;&#10;FROM STAGING.STG_AR1_INVOICE A);&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" show="false" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" show="false" value="1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="count_insert_records"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_STG_AR1_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_3">
+      <column comment="" key="false" length="13" name="count_insert_records" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="1184">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.count_insert_records = row3.count_insert_records;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_COUNT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_3">
+      <column comment="" key="false" length="13" name="count_insert_records" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRedshiftInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1504">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:xZ4PI7QsHY16m/Z4svCt1eC234QD8Vazw9lTbnak"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;FCT_AR_INVOICE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COUNT(*) FROM FACT.FCT_AR_INVOICE;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" show="false" value="false"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/Talend-Studio-20190620_1446-V7.2.1/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" show="false" value="1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="count_after_insert"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_FCT_AR_INVOICE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_4">
+      <column comment="" key="false" length="13" name="count_after_insert" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="1504">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.count_after_insert = row4.count_after_insert;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SELECT_COUNT"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_4">
+      <column comment="" key="false" length="13" name="count_after_insert" nullable="false" originalLength="20" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;SCRIPT IS DELETING ALREADY EXISTS RECORDS FROM FACT TABLE: FCT_AR_INVOICE&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRINT_INFO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;NUMBER OF RECORDS GOING TO BE DELETED FROM FACT TABLE: &quot; + context.count_deleted);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRINT_INFO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;DELETION IS NOT REQUIRED, AS THERE ARE NO RECORDS WHICH ALREADY EXISTS IN FACT.FCT_AR_INVOICE TARGET TABLE&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRINT_INFO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1760" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;DELETION COMPLETED SUCCESSFULLY&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRINT_INFO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_6"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDie_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBConnection_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (TriggerOutput(TRIGGER_OUTPUT_1))" lineStyle="1" metaname="JBLET_START_JOB_CHECKER_1" offsetLabelX="-6" offsetLabelY="-2" source="JBLET_START_JOB_CHECKER_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tDBClose_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJavaRow_1" target="tJava_4">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value=" context.count_deleted &gt; 0"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If3"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJavaRow_1" target="tJava_5">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.count_deleted == 0"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tJavaRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDBInput_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBInput_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk10"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tDie_4">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.target_count.intValue() != context.source_count.intValue()"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tWarn_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk6"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_2" offsetLabelX="0" offsetLabelY="0" source="tDBClose_2" target="tDBClose_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk7"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tJava_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk9"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_3" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_3" target="tDie_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tJavaRow_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tDBRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tJavaRow_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk8"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk13"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_4" offsetLabelX="0" offsetLabelY="0" source="tJava_4" target="tDBRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk12"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="JBLET_END_JOB_AUDIT_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="JBLET_START_JOB_CHECKER_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1ba61853-fca0-4047-9353-f0854bad1e01"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iaifraE0rTdnPy4ZBI/wnwb8kd71K+EbNSdjNG9Wnadc1LGs/IwtkQ4sEl46oY/Mg/CeDViRWzBD&#13;
+VVDl2wfSRg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_28f03fec-9138-465a-96dc-ce5069e492b3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iZOiK6ValZygUXN+bOsUEtVFvmzZjz6E/iJ/ycfZoI9ba2/RaW349AG4NLN9a5wEoLaYqlxT4oWt&#13;
+sz5pfIiarw==</DigestValue></Reference></SignedInfo><SignatureValue>ZAhWk1ikx1lCXXysi+NJhUpqGTbPOvrY6Wu8mhndA+1qZxeyTDB4ceK6o/GygDpZJcZYoGetL0Sa&#13;
++rZI9kehkY2sCTPksArMPCq7/fGvi/GHduS50kHq4PBcQqOEx306jk25yKb6SR4e9h5IkOj6fdcp&#13;
+gA+DaroXeEoisxNfhiMabQadkby7a+cW3BYDKIUF048vQBmDohQEvj/cT8TC7kEzorZVhE34s4ei&#13;
+EdaMzWPxEoYriPFCqswfRV1NFrmJkbl8V1faGn3yIFOQtbPbUWJSaYUpqiHnmI/IKF0Oxk3ar1bG&#13;
+ELJJXry74GehmAOfNdzLXTKaiHOje1G2IK0NEg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_28f03fec-9138-465a-96dc-ce5069e492b3" Target="#_1ba61853-fca0-4047-9353-f0854bad1e01"><Timestamp>2021-07-28 06:05:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

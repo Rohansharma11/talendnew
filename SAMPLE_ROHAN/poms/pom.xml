@@ -15,6 +15,7 @@
     <module>jobs/process/JOB_DIM/job_dim_subs_package_service_0.1</module>
     <module>jobs/process/JOB_DIM/job_dim_subs_package_service_child_0.1</module>
     <module>jobs/process/JOB_FACT/job_fct_fa_site_part_0.1</module>
+    <module>jobs/process/JOB_FCT/job_fct_ar_invoice_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_customer_exclusion_project_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_customer_type_0.1</module>
     <module>jobs/process/JOB_LKP/job_lkm_hardware_part_0.1</module>
