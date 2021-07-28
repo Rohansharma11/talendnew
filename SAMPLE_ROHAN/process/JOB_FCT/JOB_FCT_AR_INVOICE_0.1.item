@@ -1,210 +1,214 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_9xx8YKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8YaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8YqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8Y6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value="&quot;C:/Users/ss72/Desktop/Connections.txt&quot;"/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9xx8YKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8YaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8YqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8Y6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVB0O9uEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVB0e9uEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVB0u9uEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB0-9uEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB1O9uEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB1e9uEeu7LdCfpQOciQ" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB1u9uEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB1-9uEeu7LdCfpQOciQ" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB2O9uEeu7LdCfpQOciQ" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB2e9uEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB2u9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB2-9uEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB3O9uEeu7LdCfpQOciQ" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB3e9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB3u9uEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB3-9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB4O9uEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB4e9uEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB4u9uEeu7LdCfpQOciQ" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB4-9uEeu7LdCfpQOciQ" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB5O9uEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB5e9uEeu7LdCfpQOciQ" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB5u9uEeu7LdCfpQOciQ" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB5-9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB6O9uEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB6e9uEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB6u9uEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB6-9uEeu7LdCfpQOciQ" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB7O9uEeu7LdCfpQOciQ" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB7e9uEeu7LdCfpQOciQ" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB7u9uEeu7LdCfpQOciQ" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB7-9uEeu7LdCfpQOciQ" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB8O9uEeu7LdCfpQOciQ" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB8e9uEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB8u9uEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB8-9uEeu7LdCfpQOciQ" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB9O9uEeu7LdCfpQOciQ" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB9e9uEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB9u9uEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB9-9uEeu7LdCfpQOciQ" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB-O9uEeu7LdCfpQOciQ" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB-e9uEeu7LdCfpQOciQ" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB-u9uEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB--9uEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB_O9uEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value="&quot;C:/Users/mmaling/Desktop/Connections.txt&quot;"/>
+    <contextParameter comment="" internalId="_DKVB_e9uEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB_u9uEeu7LdCfpQOciQ" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVB_-9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCAO9uEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCAe9uEeu7LdCfpQOciQ" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCAu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCA-9uEeu7LdCfpQOciQ" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCBO9uEeu7LdCfpQOciQ" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCBe9uEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCBu9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCB-9uEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCCO9uEeu7LdCfpQOciQ" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCCe9uEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCCu9uEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCC-9uEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCDO9uEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCDe9uEeu7LdCfpQOciQ" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCDu9uEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_9xx8ZKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8ZaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8ZqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8Z6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9xx8ZKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8ZaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8ZqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8Z6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCD-9uEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCEO9uEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCEe9uEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCEu9uEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCE-9uEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCFO9uEeu7LdCfpQOciQ" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCFe9uEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCFu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCF-9uEeu7LdCfpQOciQ" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCGO9uEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCGe9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCGu9uEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCG-9uEeu7LdCfpQOciQ" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCHO9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCHe9uEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCHu9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCH-9uEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCIO9uEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCIe9uEeu7LdCfpQOciQ" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCIu9uEeu7LdCfpQOciQ" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCI-9uEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCJO9uEeu7LdCfpQOciQ" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCJe9uEeu7LdCfpQOciQ" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCJu9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCJ-9uEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCKO9uEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCKe9uEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCKu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCK-9uEeu7LdCfpQOciQ" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCLO9uEeu7LdCfpQOciQ" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCLe9uEeu7LdCfpQOciQ" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCLu9uEeu7LdCfpQOciQ" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCL-9uEeu7LdCfpQOciQ" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCMO9uEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCMe9uEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCMu9uEeu7LdCfpQOciQ" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCM-9uEeu7LdCfpQOciQ" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCNO9uEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCNe9uEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCNu9uEeu7LdCfpQOciQ" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCN-9uEeu7LdCfpQOciQ" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCOO9uEeu7LdCfpQOciQ" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCOe9uEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCOu9uEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCO-9uEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCPO9uEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCPe9uEeu7LdCfpQOciQ" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCPu9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCP-9uEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCQO9uEeu7LdCfpQOciQ" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCQe9uEeu7LdCfpQOciQ" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCQu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCQ-9uEeu7LdCfpQOciQ" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCRO9uEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCRe9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCRu9uEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCR-9uEeu7LdCfpQOciQ" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCSO9uEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCSe9uEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCSu9uEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCS-9uEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCTO9uEeu7LdCfpQOciQ" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCTe9uEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="TEST">
-    <contextParameter comment="" internalId="_9xx8aKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8aaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8aqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_9xx8a6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
-    <contextParameter comment="" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
-    <contextParameter comment="" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9xx8aKAnEeuK1ZIHPm7qTA" name="count_before_insert" prompt="count_before_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8aaAnEeuK1ZIHPm7qTA" name="count_after_insert" prompt="count_after_insert?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8aqAnEeuK1ZIHPm7qTA" name="count_deleted" prompt="count_deleted?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9xx8a6AnEeuK1ZIHPm7qTA" name="count_insert_records" prompt="count_insert_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCTu9uEeu7LdCfpQOciQ" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCT-9uEeu7LdCfpQOciQ" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_8MShQOZuEemXEbeflKvnXw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCUO9uEeu7LdCfpQOciQ" name="parameter_etl_job_run_id" prompt="parameter_etl_job_run_id?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCUe9uEeu7LdCfpQOciQ" name="parameter_record_insert_datetime" prompt="parameter_record_insert_datetime?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCUu9uEeu7LdCfpQOciQ" name="parameter_etl_job_date" prompt="parameter_etl_job_date?" promptNeeded="false" repositoryContextId="_tk774OkXEemZ4JiZqBnqow" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCU-9uEeu7LdCfpQOciQ" name="Downstream_file_Folder" prompt="Downstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCVO9uEeu7LdCfpQOciQ" name="redshift_Summary" prompt="redshift_Summary?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCVe9uEeu7LdCfpQOciQ" name="AzureSqlSer_Port" prompt="AzureSqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCVu9uEeu7LdCfpQOciQ" name="S3_Assume_Role_name" prompt="S3_Assume_Role_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCV-9uEeu7LdCfpQOciQ" name="redshift_Server" prompt="redshift_Server?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCWO9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCCRM" prompt="SqlSer_DB_CDCCRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCWe9uEeu7LdCfpQOciQ" name="redshift_Fact" prompt="redshift_Fact?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCWu9uEeu7LdCfpQOciQ" name="SqlSer_Login" prompt="SqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCW-9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCAPRM" prompt="SqlSer_DB_CDCAPRM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCXO9uEeu7LdCfpQOciQ" name="redshift_Temp" prompt="redshift_Temp?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCXe9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS" prompt="SqlSer_DB_CDCOMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCXu9uEeu7LdCfpQOciQ" name="redshift_Login" prompt="redshift_Login?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCX-9uEeu7LdCfpQOciQ" name="redshift_Staging" prompt="redshift_Staging?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCYO9uEeu7LdCfpQOciQ" name="cryptographicfile_password" prompt="cryptographicfile_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCYe9uEeu7LdCfpQOciQ" name="S3_secretkey" prompt="S3_secretkey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCYu9uEeu7LdCfpQOciQ" name="SMTP_CC" prompt="SMTP_CC?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCY-9uEeu7LdCfpQOciQ" name="SqlSer_Password" prompt="SqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCZO9uEeu7LdCfpQOciQ" name="Downstream_file_Archive" prompt="Downstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCZe9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCOMS_2" prompt="SqlSer_DB_CDCOMS_2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCZu9uEeu7LdCfpQOciQ" name="redshift_Dimension" prompt="redshift_Dimension?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCZ-9uEeu7LdCfpQOciQ" name="SMTP_Port" prompt="SMTP_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCaO9uEeu7LdCfpQOciQ" name="SMTP_Password" prompt="SMTP_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCae9uEeu7LdCfpQOciQ" name="AzureSqlSer_Schema" prompt="AzureSqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCau9uEeu7LdCfpQOciQ" name="S3_Role_Session_name" prompt="S3_Role_Session_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCa-9uEeu7LdCfpQOciQ" name="SqlSer_Server" prompt="SqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCbO9uEeu7LdCfpQOciQ" name="S3_timeout_secs" prompt="S3_timeout_secs?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCbe9uEeu7LdCfpQOciQ" name="SqlSer_Port" prompt="SqlSer_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCbu9uEeu7LdCfpQOciQ" name="Upstream_file_Archive" prompt="Upstream_file_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCb-9uEeu7LdCfpQOciQ" name="SMTP_From" prompt="SMTP_From?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCcO9uEeu7LdCfpQOciQ" name="SMTP_Host" prompt="SMTP_Host?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCce9uEeu7LdCfpQOciQ" name="cryptographicfile" prompt="cryptographicfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCcu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Server" prompt="AzureSqlSer_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCc-9uEeu7LdCfpQOciQ" name="redshift_Control" prompt="redshift_Control?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCdO9uEeu7LdCfpQOciQ" name="redshift_AdditionalParams" prompt="redshift_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCde9uEeu7LdCfpQOciQ" name="Upstream_file_Folder" prompt="Upstream_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCdu9uEeu7LdCfpQOciQ" name="SqlSer_Schema" prompt="SqlSer_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCd-9uEeu7LdCfpQOciQ" name="S3_accesskey" prompt="S3_accesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCeO9uEeu7LdCfpQOciQ" name="redshift_Database" prompt="redshift_Database?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCee9uEeu7LdCfpQOciQ" name="redshift_Password" prompt="redshift_Password?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCeu9uEeu7LdCfpQOciQ" name="resource_file_dbconfig" prompt="resource_file_dbconfig?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCe-9uEeu7LdCfpQOciQ" name="SMTP_To" prompt="SMTP_To?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCfO9uEeu7LdCfpQOciQ" name="File_Delimiter_Staging" prompt="File_Delimiter_Staging?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCfe9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCWFM" prompt="SqlSer_DB_CDCWFM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCfu9uEeu7LdCfpQOciQ" name="SMTP_Username" prompt="SMTP_Username?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCf-9uEeu7LdCfpQOciQ" name="Remote_Engine_file_Folder" prompt="Remote_Engine_file_Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCgO9uEeu7LdCfpQOciQ" name="AzureSqlSer_Password" prompt="AzureSqlSer_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCge9uEeu7LdCfpQOciQ" name="AzureSqlSer_Database" prompt="AzureSqlSer_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCgu9uEeu7LdCfpQOciQ" name="SMTP_Subject" prompt="SMTP_Subject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCg-9uEeu7LdCfpQOciQ" name="redshift_Port" prompt="redshift_Port?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVChO9uEeu7LdCfpQOciQ" name="SqlSer_DB_CDCABP" prompt="SqlSer_DB_CDCABP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVChe9uEeu7LdCfpQOciQ" name="redshift_Lookup" prompt="redshift_Lookup?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVChu9uEeu7LdCfpQOciQ" name="AzureSqlSer_Login" prompt="AzureSqlSer_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCh-9uEeu7LdCfpQOciQ" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_DKVCiO9uEeu7LdCfpQOciQ" name="extraction_start_date" prompt="extraction_start_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCie9uEeu7LdCfpQOciQ" name="extraction_end_date" prompt="extraction_end_date?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCiu9uEeu7LdCfpQOciQ" name="month_key" prompt="month_key?" promptNeeded="false" repositoryContextId="_K5UxoOpNEemARKp_VShqnA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCi-9uEeu7LdCfpQOciQ" name="flag_message" prompt="flag_message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_DKVCjO9uEeu7LdCfpQOciQ" name="redshift_AdditonalParams" prompt="redshift_AdditonalParams?" promptNeeded="false" repositoryContextId="_K5Uxn-pNEemARKp_VShqnA" type="id_String" value=""/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="29"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
@@ -230,6 +234,9 @@
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.resource_file_dbconfig"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -257,7 +264,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/ss72/Documents/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Rishab/Downloads/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -277,7 +284,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:JMrgzb10cgqtK7cMNtHAXpX5UnkIHevWJOMI8nZ3"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6OkIoxm7ekIrHtFLWSt7dLb+Y4f5L/dGn/EqlqHO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -885,7 +892,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -921,7 +928,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -1016,13 +1023,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1ba61853-fca0-4047-9353-f0854bad1e01"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iaifraE0rTdnPy4ZBI/wnwb8kd71K+EbNSdjNG9Wnadc1LGs/IwtkQ4sEl46oY/Mg/CeDViRWzBD&#13;
-VVDl2wfSRg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_28f03fec-9138-465a-96dc-ce5069e492b3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iZOiK6ValZygUXN+bOsUEtVFvmzZjz6E/iJ/ycfZoI9ba2/RaW349AG4NLN9a5wEoLaYqlxT4oWt&#13;
-sz5pfIiarw==</DigestValue></Reference></SignedInfo><SignatureValue>ZAhWk1ikx1lCXXysi+NJhUpqGTbPOvrY6Wu8mhndA+1qZxeyTDB4ceK6o/GygDpZJcZYoGetL0Sa&#13;
-+rZI9kehkY2sCTPksArMPCq7/fGvi/GHduS50kHq4PBcQqOEx306jk25yKb6SR4e9h5IkOj6fdcp&#13;
-gA+DaroXeEoisxNfhiMabQadkby7a+cW3BYDKIUF048vQBmDohQEvj/cT8TC7kEzorZVhE34s4ei&#13;
-EdaMzWPxEoYriPFCqswfRV1NFrmJkbl8V1faGn3yIFOQtbPbUWJSaYUpqiHnmI/IKF0Oxk3ar1bG&#13;
-ELJJXry74GehmAOfNdzLXTKaiHOje1G2IK0NEg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5c98503f-46cc-4a39-bc7b-ebffc446e8a1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oJ4CfutwM6qkVwvjcGzCBy1DW+JmGUwXWpFhhFeKmHvOcTKWR/xLHmUtBgn3VE8+b8UiUDxrXGzi&#13;
+Ef43OTKbhw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d6f2b0f-ba9d-41d7-aba3-b78ff4b55bdd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cWWm3U3IaK/Iy/1DCFdcLLUomPoHeMrV1u6JBCd/Ob/I6AFsf8wwsc+Tkat+Ow1gPR0P6th0KYKC&#13;
+kf6g9diJkw==</DigestValue></Reference></SignedInfo><SignatureValue>IkTlUe1U0rorrtUFHHRcZbkjp2JzHOtDJvvjRPuslMvr0HpSfoDAyOJ9HfQTAB7gomfcA1K+NFkx&#13;
+1QsSj3PxpfAEPgOTxw4GHQrC4uYEYtWzTetkxMTWqZ2sOykq6DdoABoNbJYd+uRHwnrV+kkp0ors&#13;
+hPphb64ki8FSFAfVGrqiDZW24vriGbvqc60zbkIn/eEX0mvGx5svCkm/oYdfOloWJDe7VI+jPjh9&#13;
+Iqzhkug5pXu65jlzt1l4SRL1NYgC4tx5lmbJyiXgVNYJIb9b6ZQOkJSoeHvR9Uhnq5Vr4NgiiE5I&#13;
+3+aDj2qEVt41sBLY3icG6C9Mk9sl0JCQvZeDXw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1044,4 +1051,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_28f03fec-9138-465a-96dc-ce5069e492b3" Target="#_1ba61853-fca0-4047-9353-f0854bad1e01"><Timestamp>2021-07-28 06:05:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d6f2b0f-ba9d-41d7-aba3-b78ff4b55bdd" Target="#_5c98503f-46cc-4a39-bc7b-ebffc446e8a1"><Timestamp>2021-07-28 06:05:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

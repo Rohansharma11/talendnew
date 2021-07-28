@@ -27,38 +27,17 @@
     "contextName" : "DEV",
     "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
     "parameterList" : [ {
-      "id" : "_KrkgEqPNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Folder"
-    }, {
       "id" : "_K6Ip7OpNEemARKp_VShqnA",
       "name" : "redshift_Summary"
-    }, {
-      "id" : "_KrkgDKPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Port"
-    }, {
-      "id" : "_KrkgD6PNEeqxBtqScJi_wQ",
-      "name" : "S3_Assume_Role_name"
     }, {
       "id" : "_K6Ip4upNEemARKp_VShqnA",
       "name" : "redshift_Server"
     }, {
-      "id" : "_Krkf-6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCCRM"
-    }, {
       "id" : "_K6Ip6epNEemARKp_VShqnA",
       "name" : "redshift_Fact"
     }, {
-      "id" : "_Krkf_qPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Login"
-    }, {
-      "id" : "_Krkf_KPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCAPRM"
-    }, {
       "id" : "_K6Ip7epNEemARKp_VShqnA",
       "name" : "redshift_Temp"
-    }, {
-      "id" : "_Krkf-KPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS"
     }, {
       "id" : "_K6Ip5epNEemARKp_VShqnA",
       "name" : "redshift_Login"
@@ -66,23 +45,8 @@
       "id" : "_K6Ip6-pNEemARKp_VShqnA",
       "name" : "redshift_Staging"
     }, {
-      "id" : "_KrkgCKPNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile_password"
-    }, {
-      "id" : "_KrkgAqPNEeqxBtqScJi_wQ",
-      "name" : "S3_secretkey"
-    }, {
       "id" : "_K6Ip8-pNEemARKp_VShqnA",
       "name" : "SMTP_CC"
-    }, {
-      "id" : "_Krkf_6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Password"
-    }, {
-      "id" : "_KrkgE6PNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Archive"
-    }, {
-      "id" : "_Krkf-aPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS_2"
     }, {
       "id" : "_K6Ip6OpNEemARKp_VShqnA",
       "name" : "redshift_Dimension"
@@ -93,50 +57,14 @@
       "id" : "_K6Ip9epNEemARKp_VShqnA",
       "name" : "SMTP_Password"
     }, {
-      "id" : "_KrkgDqPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Schema"
-    }, {
-      "id" : "_KrkgEKPNEeqxBtqScJi_wQ",
-      "name" : "S3_Role_Session_name"
-    }, {
-      "id" : "_Krkf9qPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Server"
-    }, {
-      "id" : "_KrkgEaPNEeqxBtqScJi_wQ",
-      "name" : "S3_timeout_secs"
-    }, {
-      "id" : "_Krkf96PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Port"
-    }, {
-      "id" : "_KrkgBKPNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Archive"
-    }, {
       "id" : "_K6Ip8upNEemARKp_VShqnA",
       "name" : "SMTP_From"
     }, {
       "id" : "_K6Ip7-pNEemARKp_VShqnA",
       "name" : "SMTP_Host"
     }, {
-      "id" : "_KrkgB6PNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile"
-    }, {
-      "id" : "_KrkgCaPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Server"
-    }, {
       "id" : "_K6Ip5-pNEemARKp_VShqnA",
       "name" : "redshift_Control"
-    }, {
-      "id" : "_Krkf7qPNEeqxBtqScJi_wQ",
-      "name" : "redshift_AdditionalParams"
-    }, {
-      "id" : "_KrkgA6PNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Folder"
-    }, {
-      "id" : "_KrkgAKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Schema"
-    }, {
-      "id" : "_KrkgAaPNEeqxBtqScJi_wQ",
-      "name" : "S3_accesskey"
     }, {
       "id" : "_K6Ip5OpNEemARKp_VShqnA",
       "name" : "redshift_Database"
@@ -150,38 +78,17 @@
       "id" : "_K6Ip8epNEemARKp_VShqnA",
       "name" : "SMTP_To"
     }, {
-      "id" : "_KrkgBqPNEeqxBtqScJi_wQ",
-      "name" : "File_Delimiter_Staging"
-    }, {
-      "id" : "_Krkf_aPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCWFM"
-    }, {
       "id" : "_K6Ip9OpNEemARKp_VShqnA",
       "name" : "SMTP_Username"
-    }, {
-      "id" : "_KrkgBaPNEeqxBtqScJi_wQ",
-      "name" : "Remote_Engine_file_Folder"
-    }, {
-      "id" : "_KrkgC6PNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Password"
-    }, {
-      "id" : "_KrkgDaPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Database"
-    }, {
-      "id" : "_KrkgFKPNEeqxBtqScJi_wQ",
-      "name" : "SMTP_Subject"
     }, {
       "id" : "_K6Ip4-pNEemARKp_VShqnA",
       "name" : "redshift_Port"
     }, {
-      "id" : "_Krkf-qPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCABP"
-    }, {
       "id" : "_K6Ip6upNEemARKp_VShqnA",
       "name" : "redshift_Lookup"
     }, {
-      "id" : "_KrkgCqPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Login"
+      "id" : "_K6Ip7upNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
     } ]
   }, {
     "contextName" : "DEV",
@@ -198,9 +105,6 @@
     }, {
       "id" : "_MpRNR-7FEeu7LdCfpQOciQ",
       "name" : "month_key"
-    }, {
-      "id" : "_1P5a5KAnEeuK1ZIHPm7qTA",
-      "name" : "flag_message"
     } ]
   }, {
     "contextName" : "PROD",
@@ -229,38 +133,17 @@
     "contextName" : "PROD",
     "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
     "parameterList" : [ {
-      "id" : "_KrkgS6PNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Folder"
-    }, {
       "id" : "_6aPTjOpNEemARKp_VShqnA",
       "name" : "redshift_Summary"
-    }, {
-      "id" : "_KrkgRaPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Port"
-    }, {
-      "id" : "_KrkgSKPNEeqxBtqScJi_wQ",
-      "name" : "S3_Assume_Role_name"
     }, {
       "id" : "_6aPTgupNEemARKp_VShqnA",
       "name" : "redshift_Server"
     }, {
-      "id" : "_KrkgNKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCCRM"
-    }, {
       "id" : "_6aPTiepNEemARKp_VShqnA",
       "name" : "redshift_Fact"
     }, {
-      "id" : "_KrkgN6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Login"
-    }, {
-      "id" : "_KrkgNaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCAPRM"
-    }, {
       "id" : "_6aPTjepNEemARKp_VShqnA",
       "name" : "redshift_Temp"
-    }, {
-      "id" : "_KrkgMaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS"
     }, {
       "id" : "_6aPThepNEemARKp_VShqnA",
       "name" : "redshift_Login"
@@ -268,23 +151,8 @@
       "id" : "_6aPTi-pNEemARKp_VShqnA",
       "name" : "redshift_Staging"
     }, {
-      "id" : "_KrkgQaPNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile_password"
-    }, {
-      "id" : "_KrkgO6PNEeqxBtqScJi_wQ",
-      "name" : "S3_secretkey"
-    }, {
       "id" : "_6aPTk-pNEemARKp_VShqnA",
       "name" : "SMTP_CC"
-    }, {
-      "id" : "_KrkgOKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Password"
-    }, {
-      "id" : "_KrkgTKPNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Archive"
-    }, {
-      "id" : "_KrkgMqPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS_2"
     }, {
       "id" : "_6aPTiOpNEemARKp_VShqnA",
       "name" : "redshift_Dimension"
@@ -295,50 +163,14 @@
       "id" : "_6aPTlepNEemARKp_VShqnA",
       "name" : "SMTP_Password"
     }, {
-      "id" : "_KrkgR6PNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Schema"
-    }, {
-      "id" : "_KrkgSaPNEeqxBtqScJi_wQ",
-      "name" : "S3_Role_Session_name"
-    }, {
-      "id" : "_KrkgL6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Server"
-    }, {
-      "id" : "_KrkgSqPNEeqxBtqScJi_wQ",
-      "name" : "S3_timeout_secs"
-    }, {
-      "id" : "_KrkgMKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Port"
-    }, {
-      "id" : "_KrkgPaPNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Archive"
-    }, {
       "id" : "_6aPTkupNEemARKp_VShqnA",
       "name" : "SMTP_From"
     }, {
       "id" : "_6aPTj-pNEemARKp_VShqnA",
       "name" : "SMTP_Host"
     }, {
-      "id" : "_KrkgQKPNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile"
-    }, {
-      "id" : "_KrkgQqPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Server"
-    }, {
       "id" : "_6aPTh-pNEemARKp_VShqnA",
       "name" : "redshift_Control"
-    }, {
-      "id" : "_KrkgJ6PNEeqxBtqScJi_wQ",
-      "name" : "redshift_AdditionalParams"
-    }, {
-      "id" : "_KrkgPKPNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Folder"
-    }, {
-      "id" : "_KrkgOaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Schema"
-    }, {
-      "id" : "_KrkgOqPNEeqxBtqScJi_wQ",
-      "name" : "S3_accesskey"
     }, {
       "id" : "_6aPThOpNEemARKp_VShqnA",
       "name" : "redshift_Database"
@@ -352,38 +184,17 @@
       "id" : "_6aPTkepNEemARKp_VShqnA",
       "name" : "SMTP_To"
     }, {
-      "id" : "_KrkgP6PNEeqxBtqScJi_wQ",
-      "name" : "File_Delimiter_Staging"
-    }, {
-      "id" : "_KrkgNqPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCWFM"
-    }, {
       "id" : "_6aPTlOpNEemARKp_VShqnA",
       "name" : "SMTP_Username"
-    }, {
-      "id" : "_KrkgPqPNEeqxBtqScJi_wQ",
-      "name" : "Remote_Engine_file_Folder"
-    }, {
-      "id" : "_KrkgRKPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Password"
-    }, {
-      "id" : "_KrkgRqPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Database"
-    }, {
-      "id" : "_KrkgTaPNEeqxBtqScJi_wQ",
-      "name" : "SMTP_Subject"
     }, {
       "id" : "_6aPTg-pNEemARKp_VShqnA",
       "name" : "redshift_Port"
     }, {
-      "id" : "_KrkgM6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCABP"
-    }, {
       "id" : "_6aPTiupNEemARKp_VShqnA",
       "name" : "redshift_Lookup"
     }, {
-      "id" : "_KrkgQ6PNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Login"
+      "id" : "_6aPTjupNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
     } ]
   }, {
     "contextName" : "PROD",
@@ -400,9 +211,6 @@
     }, {
       "id" : "_MpRNQ-7FEeu7LdCfpQOciQ",
       "name" : "month_key"
-    }, {
-      "id" : "_1P5a6aAnEeuK1ZIHPm7qTA",
-      "name" : "flag_message"
     } ]
   }, {
     "contextName" : "TEST",
@@ -431,38 +239,17 @@
     "contextName" : "TEST",
     "repoId" : "_K5Uxn-pNEemARKp_VShqnA",
     "parameterList" : [ {
-      "id" : "_KrkghKPNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Folder"
-    }, {
       "id" : "_6aPToupNEemARKp_VShqnA",
       "name" : "redshift_Summary"
-    }, {
-      "id" : "_KrkgfqPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Port"
-    }, {
-      "id" : "_KrkggaPNEeqxBtqScJi_wQ",
-      "name" : "S3_Assume_Role_name"
     }, {
       "id" : "_6aPTmOpNEemARKp_VShqnA",
       "name" : "redshift_Server"
     }, {
-      "id" : "_KrkgbaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCCRM"
-    }, {
       "id" : "_6aPTn-pNEemARKp_VShqnA",
       "name" : "redshift_Fact"
     }, {
-      "id" : "_KrkgcKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Login"
-    }, {
-      "id" : "_KrkgbqPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCAPRM"
-    }, {
       "id" : "_6aPTo-pNEemARKp_VShqnA",
       "name" : "redshift_Temp"
-    }, {
-      "id" : "_KrkgaqPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS"
     }, {
       "id" : "_6aPTm-pNEemARKp_VShqnA",
       "name" : "redshift_Login"
@@ -470,23 +257,8 @@
       "id" : "_6aPToepNEemARKp_VShqnA",
       "name" : "redshift_Staging"
     }, {
-      "id" : "_KrkgeqPNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile_password"
-    }, {
-      "id" : "_KrkgdKPNEeqxBtqScJi_wQ",
-      "name" : "S3_secretkey"
-    }, {
       "id" : "_6aPTqepNEemARKp_VShqnA",
       "name" : "SMTP_CC"
-    }, {
-      "id" : "_KrkgcaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Password"
-    }, {
-      "id" : "_KrkghaPNEeqxBtqScJi_wQ",
-      "name" : "Downstream_file_Archive"
-    }, {
-      "id" : "_Krkga6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCOMS_2"
     }, {
       "id" : "_6aPTnupNEemARKp_VShqnA",
       "name" : "redshift_Dimension"
@@ -497,50 +269,14 @@
       "id" : "_6aPTq-pNEemARKp_VShqnA",
       "name" : "SMTP_Password"
     }, {
-      "id" : "_KrkggKPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Schema"
-    }, {
-      "id" : "_KrkggqPNEeqxBtqScJi_wQ",
-      "name" : "S3_Role_Session_name"
-    }, {
-      "id" : "_KrkgaKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Server"
-    }, {
-      "id" : "_Krkgg6PNEeqxBtqScJi_wQ",
-      "name" : "S3_timeout_secs"
-    }, {
-      "id" : "_KrkgaaPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Port"
-    }, {
-      "id" : "_KrkgdqPNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Archive"
-    }, {
       "id" : "_6aPTqOpNEemARKp_VShqnA",
       "name" : "SMTP_From"
     }, {
       "id" : "_6aPTpepNEemARKp_VShqnA",
       "name" : "SMTP_Host"
     }, {
-      "id" : "_KrkgeaPNEeqxBtqScJi_wQ",
-      "name" : "cryptographicfile"
-    }, {
-      "id" : "_Krkge6PNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Server"
-    }, {
       "id" : "_6aPTnepNEemARKp_VShqnA",
       "name" : "redshift_Control"
-    }, {
-      "id" : "_KrkgYKPNEeqxBtqScJi_wQ",
-      "name" : "redshift_AdditionalParams"
-    }, {
-      "id" : "_KrkgdaPNEeqxBtqScJi_wQ",
-      "name" : "Upstream_file_Folder"
-    }, {
-      "id" : "_KrkgcqPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_Schema"
-    }, {
-      "id" : "_Krkgc6PNEeqxBtqScJi_wQ",
-      "name" : "S3_accesskey"
     }, {
       "id" : "_6aPTmupNEemARKp_VShqnA",
       "name" : "redshift_Database"
@@ -554,38 +290,17 @@
       "id" : "_6aPTp-pNEemARKp_VShqnA",
       "name" : "SMTP_To"
     }, {
-      "id" : "_KrkgeKPNEeqxBtqScJi_wQ",
-      "name" : "File_Delimiter_Staging"
-    }, {
-      "id" : "_Krkgb6PNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCWFM"
-    }, {
       "id" : "_6aPTqupNEemARKp_VShqnA",
       "name" : "SMTP_Username"
-    }, {
-      "id" : "_Krkgd6PNEeqxBtqScJi_wQ",
-      "name" : "Remote_Engine_file_Folder"
-    }, {
-      "id" : "_KrkgfaPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Password"
-    }, {
-      "id" : "_Krkgf6PNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Database"
-    }, {
-      "id" : "_KrkghqPNEeqxBtqScJi_wQ",
-      "name" : "SMTP_Subject"
     }, {
       "id" : "_6aPTmepNEemARKp_VShqnA",
       "name" : "redshift_Port"
     }, {
-      "id" : "_KrkgbKPNEeqxBtqScJi_wQ",
-      "name" : "SqlSer_DB_CDCABP"
-    }, {
       "id" : "_6aPToOpNEemARKp_VShqnA",
       "name" : "redshift_Lookup"
     }, {
-      "id" : "_KrkgfKPNEeqxBtqScJi_wQ",
-      "name" : "AzureSqlSer_Login"
+      "id" : "_6aPTpOpNEemARKp_VShqnA",
+      "name" : "redshift_AdditonalParams"
     } ]
   }, {
     "contextName" : "TEST",
@@ -602,9 +317,6 @@
     }, {
       "id" : "_MpRNS-7FEeu7LdCfpQOciQ",
       "name" : "month_key"
-    }, {
-      "id" : "_1P5a7qAnEeuK1ZIHPm7qTA",
-      "name" : "flag_message"
     } ]
   } ]
 }
